@@ -42,7 +42,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tga-Ge-tRB">
-                                <rect key="frame" x="36" y="160" width="102" height="30"/>
+                                <rect key="frame" x="36" y="160" width="121" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Did You Know?">
                                     <color key="titleColor" white="1" alpha="0.69186108732876717" colorSpace="calibratedWhite"/>
                                 </state>
@@ -61,6 +62,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="funFactButton" destination="4rq-ro-V99" id="t8n-ab-5ox"/>
                         <outlet property="funFactLabel" destination="mbb-yw-wLt" id="XVF-9o-UAJ"/>
                     </connections>
                 </viewController>

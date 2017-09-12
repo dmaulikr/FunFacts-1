@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D9876701F678999008BE897 /* FactProviderDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D98766F1F678999008BE897 /* FactProviderDTO.swift */; };
+		9D98767A1F67A452008BE897 /* BackgroundColorDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9876791F67A452008BE897 /* BackgroundColorDTO.swift */; };
 		9DFDEB6C1F67421D005B2510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDEB6B1F67421D005B2510 /* AppDelegate.swift */; };
 		9DFDEB6E1F67421D005B2510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDEB6D1F67421D005B2510 /* ViewController.swift */; };
 		9DFDEB711F67421D005B2510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDEB6F1F67421D005B2510 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		9D98766F1F678999008BE897 /* FactProviderDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProviderDTO.swift; sourceTree = "<group>"; };
+		9D9876791F67A452008BE897 /* BackgroundColorDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColorDTO.swift; sourceTree = "<group>"; };
 		9DFDEB681F67421D005B2510 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFDEB6B1F67421D005B2510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DFDEB6D1F67421D005B2510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		9D9876711F678CB9008BE897 /* DTO */ = {
 			isa = PBXGroup;
 			children = (
+				9D9876791F67A452008BE897 /* BackgroundColorDTO.swift */,
 				9D98766F1F678999008BE897 /* FactProviderDTO.swift */,
 			);
 			name = DTO;
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DFDEB6E1F67421D005B2510 /* ViewController.swift in Sources */,
+				9D98767A1F67A452008BE897 /* BackgroundColorDTO.swift in Sources */,
 				9DFDEB6C1F67421D005B2510 /* AppDelegate.swift in Sources */,
 				9D9876701F678999008BE897 /* FactProviderDTO.swift in Sources */,
 			);

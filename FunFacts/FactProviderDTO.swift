@@ -27,4 +27,6 @@ struct FactProvider {
         let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: facts.count)
         return facts[randomNumber]
     }
+    
+
 }

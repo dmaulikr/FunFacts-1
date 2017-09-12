@@ -12,13 +12,17 @@ class ViewController: UIViewController {
 
 
     @IBOutlet weak var funFactLabel: UILabel!
+    @IBOutlet weak var funFactButton: UIButton!
     
     let factProvider = FactProvider()
+    let bgColorProvider = BackgroundColorProvider()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         funFactLabel.text = factProvider.randomFact()
+        funFactButton.layer.cornerRadius = 10
+        funFactButton.clipsToBounds = true
         
     }
 
@@ -32,8 +36,12 @@ class ViewController: UIViewController {
             Trigger an event activating a new fact.
  
          */
-
+        
+        let randomColor = bgColorProvider.randomColor()
         funFactLabel.text = factProvider.randomFact()
+        view.backgroundColor = randomColor
+        funFactButton.tintColor = randomColor
+
     }
 }
 
